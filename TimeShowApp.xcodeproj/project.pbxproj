@@ -14,6 +14,9 @@
 		3905F5A72158C03000B73861 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3905F5A52158C03000B73861 /* LaunchScreen.storyboard */; };
 		3905F5B22158C03100B73861 /* TimeShowAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3905F5B12158C03100B73861 /* TimeShowAppTests.swift */; };
 		3905F5BD2158C03100B73861 /* TimeShowAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3905F5BC2158C03100B73861 /* TimeShowAppUITests.swift */; };
+		3905F5CB2158CAB600B73861 /* 003.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3905F5CA2158CAB500B73861 /* 003.wav */; };
+		3905F5CD2158CBFA00B73861 /* 003.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3905F5CC2158CBFA00B73861 /* 003.mp3 */; };
+		E2FFA28704F9F3CF56110989 /* Pods_TimeShowApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9A9B5743BBAF48C4D30DD1 /* Pods_TimeShowApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35AAD05296C76356D5DE0980 /* Pods-TimeShowApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeShowApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimeShowApp/Pods-TimeShowApp.release.xcconfig"; sourceTree = "<group>"; };
 		3905F5992158C02F00B73861 /* TimeShowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeShowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3905F59C2158C02F00B73861 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3905F59E2158C02F00B73861 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,10 @@
 		3905F5B82158C03100B73861 /* TimeShowAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeShowAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3905F5BC2158C03100B73861 /* TimeShowAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeShowAppUITests.swift; sourceTree = "<group>"; };
 		3905F5BE2158C03100B73861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3905F5CA2158CAB500B73861 /* 003.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 003.wav; path = Assets.xcassets/003.wav; sourceTree = "<group>"; };
+		3905F5CC2158CBFA00B73861 /* 003.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 003.mp3; path = Assets.xcassets/003.mp3; sourceTree = "<group>"; };
+		5C9A9B5743BBAF48C4D30DD1 /* Pods_TimeShowApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeShowApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D80EED7ADC8AB52D3664E51 /* Pods-TimeShowApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeShowApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimeShowApp/Pods-TimeShowApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2FFA28704F9F3CF56110989 /* Pods_TimeShowApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +90,8 @@
 				3905F5B02158C03100B73861 /* TimeShowAppTests */,
 				3905F5BB2158C03100B73861 /* TimeShowAppUITests */,
 				3905F59A2158C02F00B73861 /* Products */,
+				B0D51C0D249B69CC2AA31251 /* Pods */,
+				AF4954CB150B878EEF44153D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				3905F59C2158C02F00B73861 /* AppDelegate.swift */,
+				3905F5CC2158CBFA00B73861 /* 003.mp3 */,
+				3905F5CA2158CAB500B73861 /* 003.wav */,
 				3905F59E2158C02F00B73861 /* ViewController.swift */,
 				3905F5A02158C02F00B73861 /* Main.storyboard */,
 				3905F5A32158C03000B73861 /* Assets.xcassets */,
@@ -125,6 +138,23 @@
 			path = TimeShowAppUITests;
 			sourceTree = "<group>";
 		};
+		AF4954CB150B878EEF44153D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C9A9B5743BBAF48C4D30DD1 /* Pods_TimeShowApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0D51C0D249B69CC2AA31251 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D80EED7ADC8AB52D3664E51 /* Pods-TimeShowApp.debug.xcconfig */,
+				35AAD05296C76356D5DE0980 /* Pods-TimeShowApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3905F5C12158C03100B73861 /* Build configuration list for PBXNativeTarget "TimeShowApp" */;
 			buildPhases = (
+				120D02BB37FF047CEE829484 /* [CP] Check Pods Manifest.lock */,
 				3905F5952158C02F00B73861 /* Sources */,
 				3905F5962158C02F00B73861 /* Frameworks */,
 				3905F5972158C02F00B73861 /* Resources */,
+				C0A7BC235CF498C0F5C309C7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +263,8 @@
 			files = (
 				3905F5A72158C03000B73861 /* LaunchScreen.storyboard in Resources */,
 				3905F5A42158C03000B73861 /* Assets.xcassets in Resources */,
+				3905F5CD2158CBFA00B73861 /* 003.mp3 in Resources */,
+				3905F5CB2158CAB600B73861 /* 003.wav in Resources */,
 				3905F5A22158C02F00B73861 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +284,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		120D02BB37FF047CEE829484 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TimeShowApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0A7BC235CF498C0F5C309C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TimeShowApp/Pods-TimeShowApp-frameworks.sh",
+				"${PODS_ROOT}/AudioKit/iOS/AudioKitUI.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AudioKitUI.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeShowApp/Pods-TimeShowApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3905F5952158C02F00B73861 /* Sources */ = {
@@ -430,10 +511,13 @@
 		};
 		3905F5C22158C03100B73861 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D80EED7ADC8AB52D3664E51 /* Pods-TimeShowApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X6SVW7C75C;
 				INFOPLIST_FILE = TimeShowApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,10 +531,13 @@
 		};
 		3905F5C32158C03100B73861 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35AAD05296C76356D5DE0980 /* Pods-TimeShowApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X6SVW7C75C;
 				INFOPLIST_FILE = TimeShowApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
