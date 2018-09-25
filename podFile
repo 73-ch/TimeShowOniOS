@@ -1,0 +1,4 @@
+target 'TimeShowApp' do
+    use_frameworks!
+    pod 'AudioKit'
+end
